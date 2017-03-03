@@ -9,6 +9,6 @@ do
         counter=`expr $counter + 1`
         ans=`expr $ans \* $counter`
 done
-echo "Total of factorial is $ans"
+echo "factorial is $ans"
 
 
