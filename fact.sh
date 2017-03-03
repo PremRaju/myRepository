@@ -1,10 +1,7 @@
 #!/bin/bash
-echo "Total no of factorial wants"
-read fact
-
 ans=1
 counter=0
-while [ $fact -ne $counter ]
+while [ $1 -gt $counter ]
 do
         counter=`expr $counter + 1`
         ans=`expr $ans \* $counter`
